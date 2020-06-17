@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block body %}
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-inverse">
+        <div class="topnav">
+        <a href="/">
+        <img class="CultIcon" src="../static/CultIcon.png" height="50" width="50">
+        <a href="/" class="active" style="color: white;"><strong>Home</strong></a>
+        <a href="Portfolio.html" style="color: white;"><strong>Portfolio</strong></strong></a>
+        <a href="Services.html" style="color: white;"><strong>Services</strong></a>
+        <a href="Contact.html" style="color: white;"><strong>Contact</strong></a>
+        </div>
+    </nav>
+    <!--Bio-->
+    <div>
+        <h1><strong>Bio</strong></h1>
+            <div class="Bioboys"
+            <p1>Andrew Robles is a multi-instrumentalist music producer from New York City. Having an extensive 16-year long music career,
+            Andrew has a unique approach to producing where the vision and ideas of the artist translate to recording as truly as possible.</p>
+            <p2>Whether it be fully producing, engineering, mixing/mastering, or writing, Andrew strives to deliver a product held to the highest of standards. </p2>
+            <br>
+            </div>
+            <div class="Guitar">
+            <img src="/static/AndrewImage.jpg" height="480" width="480">
+            </div>
+    </div>
+
+    <!--Dropdown box w/ JS?-->
+    <a href="Services.html">
+    <div style="color: white;">
+    <h2><strong>Services</strong></h2>
+    <p class= "ServicesLink">Producing | Mixing/Mastering | Engineering | Writing</p>
+    </div>
+    </a>
+    <!--itc-avant-garde-gothic-pro;-->
+{% endblock %}
+

@@ -1,0 +1,172 @@
+/*index.html*/
+h1
+{
+    /*color: white;*/
+    /*font-size: ;*/
+    text-align: center;
+    text-decoration: underline;
+}
+
+p1
+{
+    /*color: white;*/
+    text-align: center;
+
+}
+
+.Bioboys
+{
+    margin: auto;
+    width: 75%;
+}
+
+
+.Guitar
+{
+    padding: 20px;
+}
+
+h2
+{
+    text-decoration: underline;
+}
+
+.ServicesLink
+{
+    font-size: 24px;
+    padding-top: 5.5px;
+}
+
+/*MyWork.html*/
+.Song1
+{
+    padding-top: 20px;
+}
+
+.Song2
+{
+    padding-top: 20px;
+}
+
+
+/*Services.html*/
+
+h3
+{
+    font-weight: bold;
+}
+
+.MixMaster
+{
+    line-height: 2.0;
+}
+
+
+
+
+/*Contact.html*/
+
+p5
+{
+    padding-top: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 25%;
+  padding: 15px;
+  border: ;
+  border-radius: 4px;
+  box-sizing: ;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: black;
+}
+
+input[type=submit] {
+  background-color: #343a40;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #768794;
+}
+
+.Messageboy
+{
+    padding-bottom: 10px;
+}
+
+p6
+{
+    color: red;
+}
+.Contact
+{
+    border-radius: 5px;
+    background-color:;
+    padding: 20px;
+
+}
+
+.fixed-bottom
+{
+    padding: 5px;
+
+}
+
+/*Navigation Bar*/
+
+.navbar
+{
+    border-bottom: 3px solid white;
+    /*word-spacing: 40px;*/
+    color: white;
+}
+
+.active
+{
+    text-decoration: underline;
+}
+
+.topnav a
+{
+float: left;
+display: block;
+text-align: center;
+padding: 14px 14px;
+text-decoration: ;
+font-size: ;
+border-bottom: 3px solid transparent;
+}
+
+.CultIcon
+{
+    position: absolute;
+    left:0;
+    top:0;
+}
+/*.topnav a:hover
+{
+border-bottom: 2px solid white;
+}
+
+.topnav a.active
+{
+border-bottom: 3px solid white;
+}*/
+
+IF MOBILE DO THIS .footer
+
+    left: 0;
+
+
+
+
+
+
+

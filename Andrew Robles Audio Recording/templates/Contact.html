@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Contact
+{% endblock %}
+
+{% block body %}
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-inverse">
+        <div class="topnav">
+        <a href="/">
+        <img class="CultIcon" src="../static/CultIcon.png" height="50" width="50"></a>
+        <a href="/" style="color: white;"><strong>Home</strong></a>
+        <a href="Portfolio.html" style="color: white;"><strong>Portfolio</strong></strong></a>
+        <a href="Services.html" style="color: white;"><strong>Services</strong></a>
+        <a href="Contact.html" class="active" style="color: white;"><strong>Contact</strong></a>
+        </div>
+    </nav>
+
+    <h1><strong>Contact Us</strong></h1>
+    <p5>Fields marked <p6>*</p6> are required</p5>
+
+    <!--Contact Form-->
+    <div class="Contact">
+    <form action="/Contact.html" method="post" onSubmit="alert('Submitted. Thanks for contacting!');">
+      <label for="name">Name<p6>*</p6>:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="artist">Artist/Band Name:</label><br>
+      <input type="text" id="artist" name="artist"><br>
+
+      <label for="email">Email<p6>*</p6>:</label><br>
+      <input type="text" id="email" name="email" required><br>
+
+      <label for="subject">Subject<p6>*</p6>:</label><br>
+      <input type="text" id="subject" name="subject" required><br>
+
+      <div style="padding: 0px;" class="Messageboy">
+      <label for="message">Message<p6>*</p6>:</label><br>
+      <textarea id="message" name="message" style="height:200px" required></textarea>
+      </div>
+      <div class="Submit">
+      <input type="submit" value="Submit">
+      <!--<button class="btn btn-primary" type="submit">Submit</button>-->
+      </div>
+      </form>
+    </div>
+{% endblock %}
+

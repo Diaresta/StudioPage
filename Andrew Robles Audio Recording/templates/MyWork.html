@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    MyWork
+{% endblock %}
+
+{% block body %}
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-inverse">
+        <div class="topnav">
+        <a href="/">
+        <img class="CultIcon" src="../static/CultIcon.png" height="50" width="50">
+        <a href="/" style="color: white;"><strong>Home</strong></a>
+        <a href="Portfolio.html" class="active" style="color: white;"><strong>Portfolio</strong></strong></a>
+        <a href="Services.html" style="color: white;"><strong>Services</strong></a>
+        <a href="Contact.html" style="color: white;"><strong>Contact</strong></a>
+        </div>
+    </nav>
+    <!--Song Portfolio-->
+    <div>
+        <h4><strong>A collection of songs Andrew has produced,
+        <br>mixed/mastered, engineered, or wrote</strong></h4>
+        <div class="Song1">
+            <p3>LIVEALIE - "Death Blooms" | Co-Produced/Written/Co-Engineered</p3>
+            <br>
+            <iframe src="https://open.spotify.com/embed/track/5MMbVF5YOXvU5MCML39qEP" width="465" height="80" frameborder="0"
+            allowtransparency="true" allow="encrypted-media"></iframe>
+            <br>
+        <div class="Song2">
+            <p4>Polarity - "Casket Case" | Co-Produced/Written</p4>
+            <br>
+            <iframe src="https://open.spotify.com/embed/track/66CL4O5NQsrXq3jiEbf9GF" width="465" height="80" frameborder="0"
+            allowtransparency="true" allow="encrypted-media"></iframe>
+            <br>
+        </div>
+        </div>
+    </div>
+{% endblock %}
