@@ -150,19 +150,28 @@ border-bottom: 3px solid transparent;
     left:0;
     top:0;
 }
-/*.topnav a:hover
-{
-border-bottom: 2px solid white;
+
+/*Media Queries*/
+
+@media (min-width: 451px) {
+    #guitar {
+        width: 480px;
+        height: 480px;
+        position: center;
+    }
 }
 
-.topnav a.active
-{
-border-bottom: 3px solid white;
-}*/
 
-IF MOBILE DO THIS .footer
+@media (max-width: 450px) {
+    #guitar {
+        width: 340px;
+        height: 340px;
+    }
 
-    left: 0;
+    #footer {
+        position: static;
+    }
+}
 
 
 
