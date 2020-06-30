@@ -171,6 +171,18 @@ p6
     #footer {
         position: static;
     }
+    
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 15px;
+        border: ;
+        border-radius: 4px;
+        box-sizing: 100%;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        background-color: black;
+    }
 }
 
 
