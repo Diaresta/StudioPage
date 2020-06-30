@@ -135,13 +135,13 @@ p6
 
 .topnav a
 {
-float: left;
-display: block;
-text-align: center;
-padding: 14px 14px;
-text-decoration: ;
-font-size: ;
-border-bottom: 3px solid transparent;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: ;
+    font-size: ;
+    border-bottom: 3px solid transparent;
 }
 
 .CultIcon
