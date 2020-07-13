@@ -195,4 +195,9 @@ p6
         resize: vertical;
         background-color: black;
     }
+    
+    .servicesWidth {
+        width: 80%;
+        margin: auto;
+    }
 }
