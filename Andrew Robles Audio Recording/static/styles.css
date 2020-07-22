@@ -80,6 +80,18 @@ input[type=text], select, textarea {
   background-color: black;
 }
 
+input[type=email], select, textarea {
+  width: 25%;
+  padding: 15px;
+  border: ;
+  border-radius: 4px;
+  box-sizing: ;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: black;
+}
+
 input[type=submit] {
   background-color: #343a40;
   color: white;
@@ -176,9 +188,22 @@ p6 {
         resize: vertical;
         background-color: black;
     }
+
+    input[type=email], select, textarea {
+        width: 100%;
+        padding: 15px;
+        border: ;
+        border-radius: 4px;
+        box-sizing: ;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        background-color: black;
+    }
     
     .servicesWidth {
         width: 80%;
         margin: auto;
     }
 }
+
